@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react-jsx",
+    "allowSyntheticImports": true,
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*", "index.tsx"],
+  "exclude": ["node_modules"]
+}
